@@ -1,0 +1,11 @@
+:root { --bg:#ffffff; --fg:#111111; --muted:#666666; --line:#cccccc; }
+@media (prefers-color-scheme: dark) { :root { --bg:#111111; --fg:#f2f2f2; --muted:#9a9a9a; --line:#333333; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, Arial, sans-serif; }
+main { max-width:640px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:14px; letter-spacing:.08em; margin:32px 0 12px; color:var(--muted); }
+.card { border:1px solid var(--line); padding:14px 16px; margin-bottom:12px; }
+.head { font-weight:700; margin-bottom:8px; }
+.label { color:var(--muted); font-size:13px; margin-top:8px; }
+.value { white-space:pre-line; }
+.empty { color:var(--muted); }

@@ -1,0 +1,26 @@
+{
+  "help": "Edit this file in GitHub (pencil icon). A source with an empty url is skipped. 'group' = the organisation behind the source: two sources with the same group count as ONE. Never add news sites.",
+  "sources": [
+    { "id": "faa", "name": "FAA", "group": "faa", "format": "faa",
+      "url": "https://nasstatus.faa.gov/api/airport-status-information" },
+
+    { "id": "heathrow", "name": "Airport Operations (Heathrow)", "group": "heathrow", "format": "web",
+      "airport": "LHR", "url": "https://www.heathrow.com/latest-news" },
+
+    { "id": "eurocontrol", "name": "Eurocontrol", "group": "eurocontrol", "format": "web",
+      "url": "" },
+
+    { "id": "sabre", "name": "Sabre", "group": "sabre", "format": "web", "url": "" },
+    { "id": "amadeus", "name": "Amadeus", "group": "amadeus", "format": "web", "url": "" },
+    { "id": "travelport", "name": "Travelport", "group": "travelport", "format": "web", "url": "" },
+
+    { "id": "airport-fra", "name": "Airport Operations (Frankfurt)", "group": "fra-airport", "format": "web", "airport": "FRA", "url": "" },
+    { "id": "airport-ams", "name": "Airport Operations (Schiphol)", "group": "ams-airport", "format": "web", "airport": "AMS", "url": "" },
+    { "id": "airport-cdg", "name": "Airport Operations (Paris CDG)", "group": "cdg-airport", "format": "web", "airport": "CDG", "url": "" },
+    { "id": "airport-sin", "name": "Airport Operations (Changi)", "group": "sin-airport", "format": "web", "airport": "SIN", "url": "" },
+    { "id": "airport-dxb", "name": "Airport Operations (Dubai)", "group": "dxb-airport", "format": "web", "airport": "DXB", "url": "" },
+    { "id": "airport-doh", "name": "Airport Operations (Doha)", "group": "doh-airport", "format": "web", "airport": "DOH", "url": "" },
+    { "id": "airline-1", "name": "Airline Advisory 1", "group": "airline-1", "format": "web", "url": "" },
+    { "id": "airline-2", "name": "Airline Advisory 2", "group": "airline-2", "format": "web", "url": "" }
+  ]
+}
