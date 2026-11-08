@@ -1,1 +1,5 @@
-{ "counter": 0, "keyToId": {}, "misses": {} }
+{
+  "counter": 0,
+  "keyToId": {},
+  "misses": {}
+}
